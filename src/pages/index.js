@@ -227,14 +227,14 @@ export default function Home() {
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
           New
         </Text>
-        <Text h3 color="black">
+        <Text h3 color="white">
           PORTFOLIO
         </Text>
       </Col>
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://nextui.org/images/card-example-6.jpeg"
+        src="https://images.pexels.com/photos/811587/pexels-photo-811587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         width="100%"
         height="100%"
         objectFit="cover"
@@ -254,17 +254,17 @@ export default function Home() {
       <Row>
         <Col>
           <Text color="#000" size={12}>
-            Currently You are Viewing the
+            Currently Viewing
           </Text>
-          <Text color="#000" size={12}>
-          Portfolio.
-          </Text>
+         <Text color="#000" size={12}>
+          Portfolio. 
+          </Text> 
         </Col>
         <Col>
           <Row justify="flex-end">
             <Button flat auto rounded color="secondary">
               <Text
-                css={{ color: "inherit" }}
+                css={{ color: "black" }}
                 size={12}
                 weight="bold"
                 transform="uppercase"
