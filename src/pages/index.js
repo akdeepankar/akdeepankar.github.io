@@ -234,10 +234,10 @@ export default function Home() {
       <Row>
         <Col>
           <Text color="#000" size={12}>
-            Currently You are Viewing the Portfolio.
+            Currently You are Viewing the
           </Text>
           <Text color="#000" size={12}>
-            Get notified.
+          Portfolio.
           </Text>
         </Col>
         <Col>
