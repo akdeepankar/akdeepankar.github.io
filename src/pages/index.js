@@ -28,7 +28,27 @@ export default function Home() {
           </div>
           <div className='text-center -mt-20'>
             <h3 className='text-1xl md:text-4xl'>Hey There!</h3>
-            <h1 className='text-2xl text-teal-600 md:pt-5 md:text-6xl'>I am AK Deepankar.</h1>
+            <div className='flex justify-center'>
+              <Text
+              color="black"
+              h1
+              size={30}
+              weight="bold"
+               >
+               I am
+            </Text>
+            <Text
+              className='ml-3'
+              h1
+              size={30}
+              css={{
+                textGradient: "45deg, $blue600 -20%, $yellow600 50%",
+              }}
+              weight="bold"
+               >
+               AK Deepankar.
+            </Text>
+            </div>
             <h3 className='text-gray-800 md:text-2xl md:pt-5 max-w-xl mx-auto'>Student, who is either busy Experimenting <br></br> or pondering over the next big Idea.</h3>
           </div>
 
