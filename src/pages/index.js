@@ -1,9 +1,13 @@
 import Head from 'next/head'
+import {BsFillMoonStarsFill} from 'react-icons/bs'
+import next from 'next'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import {TiSocialLinkedin, TiSocialTwitter, TiSocialYoutube, TiSocialInstagram, TiSocialGithub} from 'react-icons/ti'
+import {BsBehance, BsGithub} from 'react-icons/bs'
+import {AiFillInstagram} from 'react-icons/ai'
+import { Card, Row, Button } from "@nextui-org/react";
+import { Collapse, Text, Grid, Badge, Avatar, Link } from "@nextui-org/react";
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,110 +18,177 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+
+      <main className='bg-white px-5 md:px-20'>
+        <section className='max-h-screen'>
+          <nav className='py-8 flex justify-between'>
+          <h1 className='text-xl font-kellyslab'>AK Deepankar</h1>
+          <ul className='flex item-center'>
+            <li>
+              <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
+            </li>
+          </ul>
+          </nav>
+      
+          <div className='flex justify-center -mt-28'>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_aesgckiv.json"  background="transparent"  speed="1"  style={{width: 500, height: 500}}  loop  autoplay></lottie-player>
           </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+          <div className='text-center -mt-20'>
+            <h3 className='text-1xl md:text-4xl'>Hey There!</h3>
+            <h1 className='text-2xl text-teal-600 md:pt-5 md:text-6xl'>I am AK Deepankar.</h1>
+            <h3 className='text-gray-800 md:text-2xl md:pt-5 max-w-xl mx-auto'>Student, who is either busy Experimenting <br></br> or pondering over the next big Idea.</h3>
           </div>
-        </div>
 
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
+          <div className='flex justify-center pt-5'>
+          <Grid>
+          <Card>
+           <Card.Body>
+            <Row className='flex justify-between'>
+          <TiSocialLinkedin className='cursor-pointer text-3xl ml-5'/>
+          <TiSocialTwitter className='cursor-pointer text-3xl ml-5'/>
+          <TiSocialYoutube className='cursor-pointer text-3xl ml-5'/>
+          <AiFillInstagram className='cursor-pointer text-3xl ml-5'/>
+          <BsBehance className='cursor-pointer text-3xl ml-5'/>
+          <BsGithub className='cursor-pointer text-3xl ml-5 mr-5'/>
+            </Row>
+           
+           </Card.Body>
+          </Card>
+          </Grid>
+          </div>
+          
+        </section>
 
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
+          <section className='pt-5 flex justify-center'>
+          <Grid>
+        <Card>
+          <Card.Header className='flex justify-between'>
+            <div>
+            <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 '>Skills</h1>
+            </div>
+            <div className='-mt-2 ml-2'>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ht8zw3es.json"  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
+          </div>
+          </Card.Header>
+          <Card.Divider />
+          <Card.Body css={{ py: "$10" }}>
+            <div>
+            <h1 className='pl-3 pb-2'>Programming / Frameworks / Libraries</h1>
+            <Grid.Container gap={1}>
+      <Grid>
+        <Badge variant="flat">HTML</Badge>
+      </Grid>
+      <Grid>
+        <Badge variant="flat">CSS</Badge>
+      </Grid>
+      <Grid>
+        <Badge variant="flat">JavaScript</Badge>
+      </Grid>
+      <Grid>
+        <Badge color="primary" variant="flat">
+          BootStrap
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="primary" variant="flat">
+          React
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="primary" variant="flat">
+          NextJs
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="secondary" variant="flat">
+          Flask
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="secondary" variant="flat">
+          Django
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="success" variant="flat">
+          C
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="success" variant="flat">
+          Python
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="success" variant="flat">
+          Java
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="warning" variant="flat">
+          Matplotlib
+        </Badge>
+      </Grid>
+      <Grid>
+        <Badge color="error" variant="flat">
+          Error
+        </Badge>
+      </Grid>
+    </Grid.Container>
 
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
+    <h1 className='pl-3 pt-2'>Design - Graphic / UI UX</h1>
+    <div className='flex justify-between pl-2 pr-2 pt-2'>
+      <Avatar
+      size="lg"
+      src="ps.svg"
+      bordered
+      squared
+    />
+    <Avatar
+      size="lg"
+      src="illustrator.svg"
+      bordered
+      squared
+    />
+    <Avatar
+      size="lg"
+      src="fresco.svg"
+      bordered
+      squared
+    />
+    <Avatar
+      size="lg"
+      src="xd.svg"
+      bordered
+      squared
+    />
+    <Avatar
+      size="lg"
+      src="lightroom.svg"
+      bordered
+      squared
+    />
+    <Avatar
+      size="lg"
+      src="animate.svg"
+      bordered
+      squared
+    />
+    </div>
+    </div>
+    </Card.Body>
+    </Card>
+    </Grid>
+</section>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-    </>
+
+
+<section className='mt-5'>
+  
+</section>
+</main>
+</>
   )
 }
