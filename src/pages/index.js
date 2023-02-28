@@ -37,12 +37,12 @@ export default function Home() {
           <Card>
            <Card.Body>
             <Row className='flex justify-between'>
-          <TiSocialLinkedin className='cursor-pointer text-3xl ml-5'/>
-          <TiSocialTwitter className='cursor-pointer text-3xl ml-5'/>
-          <TiSocialYoutube className='cursor-pointer text-3xl ml-5'/>
-          <AiFillInstagram className='cursor-pointer text-3xl ml-5'/>
-          <BsBehance className='cursor-pointer text-3xl ml-5'/>
-          <BsGithub className='cursor-pointer text-3xl ml-5 mr-5'/>
+          <TiSocialLinkedin className='cursor-pointer text-2xl ml-5'/>
+          <TiSocialTwitter className='cursor-pointer text-2xl ml-5'/>
+          <TiSocialYoutube className='cursor-pointer text-2xl ml-5'/>
+          <AiFillInstagram className='cursor-pointer text-2xl ml-5'/>
+          <BsBehance className='cursor-pointer text-2xl ml-5'/>
+          <BsGithub className='cursor-pointer text-2xl ml-5 mr-5'/>
             </Row>
            
            </Card.Body>
