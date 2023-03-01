@@ -228,7 +228,7 @@ export default function Home() {
 <img css={{ position: "absolute", bottom: 0,
         zIndex: 1, }} src='grd.svg' className='-mt-60 -z-20'/>
 
-<section className='-mt-44 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
+<section className='md:z-10 -mt-44 flex justify-center md:text-2xl max-w-xl mx-auto' >
 <Grid>
         <Card className='border-none' css={{
         bgBlur: "#ffffff66",
