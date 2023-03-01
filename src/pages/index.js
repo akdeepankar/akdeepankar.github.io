@@ -302,7 +302,7 @@ export default function Home() {
           Teaming Up For A Project or Hackathon ?
         </Text>
         <Text className='bg-black' h4 color="white">
-          Just Ping Me! Anyway I am Still Learning & Always Open to New ideas.
+          Just Ping Me! Always Open to New ideas.
         </Text>
       </Col>
     </Card.Header>
