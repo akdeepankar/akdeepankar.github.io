@@ -66,15 +66,15 @@ export default function Home() {
 
           <div className='flex justify-center pt-5'>
           <Grid>
-          <Card>
+          <Card className='dark:bg-black'>
            <Card.Body>
             <Row className='flex justify-between'>
-          <TiSocialLinkedin className='cursor-pointer text-2xl ml-5'/>
-          <TiSocialTwitter className='cursor-pointer text-2xl ml-5'/>
-          <TiSocialYoutube className='cursor-pointer text-2xl ml-5'/>
-          <AiFillInstagram className='cursor-pointer text-2xl ml-5'/>
-          <BsBehance className='cursor-pointer text-2xl ml-5'/>
-          <BsGithub className='cursor-pointer text-2xl ml-5 mr-5'/>
+          <TiSocialLinkedin className='cursor-pointer text-2xl ml-5 dark:text-white'/>
+          <TiSocialTwitter className='cursor-pointer text-2xl ml-5 dark:text-white'/>
+          <TiSocialYoutube className='cursor-pointer text-2xl ml-5 dark:text-white'/>
+          <AiFillInstagram className='cursor-pointer text-2xl ml-5 dark:text-white'/>
+          <BsBehance className='cursor-pointer text-2xl ml-5 dark:text-white'/>
+          <BsGithub className='cursor-pointer text-2xl ml-5 mr-5 dark:text-white'/>
             </Row>
            
            </Card.Body>
@@ -87,20 +87,20 @@ export default function Home() {
 
 <section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'>
               <Grid>
-            <Card>
+            <Card className='dark:bg-black'>
               <Card.Header className='flex justify-between'>
                 <div>
-                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 '>Skills</h1>
+                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Skills</h1>
                 </div>
                 <div className='-mt-2 ml-2'>
               <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
               <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ht8zw3es.json"  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
               </div>
               </Card.Header>
-              <Card.Divider />
+              <Card.Divider className='dark:bg-white' />
               <Card.Body css={{ py: "$10" }}>
                 <div>
-                <h1 className='pl-3 pb-2'>Programming / Frameworks / Libraries / Tools</h1>
+                <h1 className='pl-3 pb-2 dark:text-white'>Programming / Frameworks / Libraries / Tools</h1>
                 <Grid.Container gap={1}>
           <Grid>
             <Badge variant="flat">HTML</Badge>
@@ -173,7 +173,7 @@ export default function Home() {
           </Grid>
         </Grid.Container>
 
-        <h1 className='pl-3 pt-2'>Design - Graphic / UI UX</h1>
+        <h1 className='pl-3 pt-2 dark:text-white'>Design - Graphic / UI UX</h1>
         <div className='flex justify-between pl-2 pr-2 pt-2'>
           <Avatar
           size="lg"
@@ -220,17 +220,17 @@ export default function Home() {
 
 <section className='mt-3 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
 <Grid>
-        <Card>
+        <Card className="dark:bg-black">
         <Card.Header className='flex justify-between'>
                 <div>
-                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 '>Projects</h1>
+                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Projects</h1>
                 </div>
                 <div className='-mt-2 ml-2'>
               <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
               <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_hylaaytn.json"  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
               </div>
               </Card.Header>
-          <Card.Divider />
+          <Card.Divider className='dark:bg-white' />
           <Card.Body css={{ py: "$10" }}>
             <div>
             <Card css={{ w: "100%", h: "200px" }}>
@@ -322,7 +322,7 @@ export default function Home() {
   </Card>
 </section>
 <section className='flex justify-center mb-5'>
-  <h2 className=' bg-blue-50 p-1 rounded'>2023 - AK DEEPANKAR</h2>
+  <h2 className=' bg-blue-50 p-1 rounded dark:text-red-400 dark:bg-black'>2023 - AK DEEPANKAR</h2>
 </section>
 </main>
 </div>
