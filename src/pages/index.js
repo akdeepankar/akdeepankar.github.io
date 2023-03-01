@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <main className='bg-white px-5 pt-5 pb-5 dark:bg-black'>
-        <section className='max-h-screen mt-10  '>
+        <section className='max-h-screen  '>
           <nav className='flex justify-end'>
           <Switch
           onChange={() => setDarkMode(!darkMode)}
