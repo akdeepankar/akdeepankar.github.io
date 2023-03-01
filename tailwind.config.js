@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'heroo': "url('/gld.svg')",
+      },
       fontFamily: {
         kellyslab: "KellySlab-Regular"
       }
