@@ -35,7 +35,7 @@ export default function Home() {
           </nav>  
           <div className='flex justify-center -mt-24'>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_aesgckiv.json"  background="transparent"  speed="1"  style={{width: 500, height: 500}}  loop  autoplay></lottie-player>
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_aesgckiv.json"  background="transparent" speed="1"  style={{width: 500, height: 500}}  loop  autoplay></lottie-player>
           </div>
           <div className='text-center -mt-20'>
             <h3 className='text-1xl md:text-4xl dark:text-white'>Hey There!</h3>
@@ -69,12 +69,12 @@ export default function Home() {
           <Card className='dark:bg-black'>
            <Card.Body>
             <Row className='flex justify-between'>
-          <TiSocialLinkedin className='cursor-pointer text-2xl ml-5 dark:text-white'/>
-          <TiSocialTwitter className='cursor-pointer text-2xl ml-5 dark:text-white'/>
-          <TiSocialYoutube className='cursor-pointer text-2xl ml-5 dark:text-white'/>
-          <AiFillInstagram className='cursor-pointer text-2xl ml-5 dark:text-white'/>
-          <BsBehance className='cursor-pointer text-2xl ml-5 dark:text-white'/>
-          <BsGithub className='cursor-pointer text-2xl ml-5 mr-5 dark:text-white'/>
+          <a href='https://linkedin.com/in/akdeepankar/'><TiSocialLinkedin className='cursor-pointer text-2xl ml-5 dark:text-white'/></a>
+          <a href="https://twitter.com/@ak_deepankar/"><TiSocialTwitter className='cursor-pointer text-2xl ml-5 dark:text-white'/></a> 
+          <a href="https://www.youtube.com/@ak_deepankar"><TiSocialYoutube className='cursor-pointer text-2xl ml-5 dark:text-white'/></a>
+          <a href="https://instagram.com/ak_deepankar/"><AiFillInstagram className='cursor-pointer text-2xl ml-5 dark:text-white'/></a> 
+          <a href="https://behance.net/akdeepankar/"><BsBehance className='cursor-pointer text-2xl ml-5 dark:text-white'/></a> 
+          <a href="https://github.com/akdeepankar/"><BsGithub className='cursor-pointer text-2xl ml-5 mr-5 dark:text-white'/></a>    
             </Row>
            
            </Card.Body>
