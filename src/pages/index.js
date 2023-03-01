@@ -93,13 +93,13 @@ export default function Home() {
 
 
 
-<section className=' md:z-10 -mt-40 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'>
+<section className=' md:z-10 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'>
               <Grid>
-            <Card className='border-none md:-mt-80' css={{
+            <Card className='border-none -mt-10 md:-mt-80' css={{
         bgBlur: "#ffffff66",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
-        zIndex: 1,
+        zIndex: 2,
       }}>
               <Card.Header className='flex justify-between'>
                 <div>
@@ -228,9 +228,9 @@ export default function Home() {
 <img css={{ position: "absolute", bottom: 0,
         zIndex: 1, }} src='grd.svg' className='-mt-60 -z-20'/>
 
-<section className='md:z-10 -mt-44 flex justify-center md:text-2xl max-w-xl mx-auto' >
+<section className='md:z-10 flex justify-center md:text-2xl max-w-xl mx-auto' >
 <Grid>
-        <Card className='border-none' css={{
+        <Card className='border-none -mt-20' css={{
         bgBlur: "#ffffff66",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
