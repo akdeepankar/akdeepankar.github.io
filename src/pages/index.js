@@ -66,7 +66,12 @@ export default function Home() {
 
           <div className='flex justify-center pt-5'>
           <Grid>
-          <Card className='dark:bg-gray-900'>
+          <Card className='border-none' css={{
+        bgBlur: "#ffffff66",
+        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+        bottom: 0,
+        zIndex: 1,
+      }}>
            <Card.Body>
             <Row className='flex justify-between'>
           <a href='https://linkedin.com/in/akdeepankar/'><TiSocialLinkedin className='cursor-pointer text-2xl ml-5 dark:text-white'/></a>
@@ -83,11 +88,19 @@ export default function Home() {
           </div>
           
     </section>
+    <img src='gld.svg' className='-mt-60 -z-20 md:-mt-90 md:-z-10'/>
 
 
-<section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'>
+
+
+<section className=' md:z-10 -mt-40 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'>
               <Grid>
-            <Card className='dark:bg-gray-900'>
+            <Card className='border-none md:-mt-80' css={{
+        bgBlur: "#ffffff66",
+        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+        bottom: 0,
+        zIndex: 1,
+      }}>
               <Card.Header className='flex justify-between'>
                 <div>
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Skills</h1>
@@ -98,7 +111,7 @@ export default function Home() {
               </div>
               </Card.Header>
               <Card.Divider className='dark:bg-white' />
-              <Card.Body css={{ py: "$10" }}>
+              <Card.Body css={{ py: "$10" }} >
                 <div>
                 <h1 className='pl-3 pb-2 dark:text-white'>Programming / Frameworks / Libraries / Tools</h1>
                 <Grid.Container gap={1}>
@@ -212,9 +225,17 @@ export default function Home() {
         </Grid>
 </section>
 
-<section className='mt-3 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
+<img css={{ position: "absolute", bottom: 0,
+        zIndex: 1, }} src='grd.svg' className='-mt-60 -z-20'/>
+
+<section className='-mt-44 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
 <Grid>
-        <Card className="dark:bg-gray-900">
+        <Card className='border-none' css={{
+        bgBlur: "#ffffff66",
+        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+        bottom: 0,
+        zIndex: 1,
+      }}>
         <Card.Header className='flex justify-between'>
                 <div>
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Projects</h1>
@@ -295,7 +316,7 @@ export default function Home() {
 
 
 <section className='mt-5 flex justify-center mb-5 md:text-2xl md:pt-5 max-w-xl mx-auto'>
-<Card className=' h-40'>
+<Card className=' border-none h-40'>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text className='bg-black' size={16} weight="bold" transform="uppercase" color="#ffffff">
