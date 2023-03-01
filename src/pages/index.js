@@ -336,7 +336,9 @@ export default function Home() {
   </Card>
 </section>
 <section className='flex justify-center mb-5'>
-  <h2 className=' bg-blue-50 p-1 rounded dark:text-white dark:bg-black'>2023 - AK DEEPANKAR</h2>
+<Button bordered color="primary" auto>
+2023 - AK DEEPANKAR
+        </Button>
 </section>
 </section>
 </main>
