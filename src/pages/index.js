@@ -66,7 +66,7 @@ export default function Home() {
 
           <div className='flex justify-center pt-5'>
           <Grid>
-          <Card className='dark:bg-black'>
+          <Card className='dark:bg-gray-900'>
            <Card.Body>
             <Row className='flex justify-between'>
           <a href='https://linkedin.com/in/akdeepankar/'><TiSocialLinkedin className='cursor-pointer text-2xl ml-5 dark:text-white'/></a>
@@ -87,7 +87,7 @@ export default function Home() {
 
 <section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'>
               <Grid>
-            <Card className='dark:bg-black'>
+            <Card className='dark:bg-gray-900'>
               <Card.Header className='flex justify-between'>
                 <div>
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Skills</h1>
@@ -214,7 +214,7 @@ export default function Home() {
 
 <section className='mt-3 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
 <Grid>
-        <Card className="dark:bg-black">
+        <Card className="dark:bg-gray-900">
         <Card.Header className='flex justify-between'>
                 <div>
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Projects</h1>
@@ -316,7 +316,7 @@ export default function Home() {
   </Card>
 </section>
 <section className='flex justify-center mb-5'>
-  <h2 className=' bg-blue-50 p-1 rounded dark:text-red-400 dark:bg-black'>2023 - AK DEEPANKAR</h2>
+  <h2 className=' bg-blue-50 p-1 rounded dark:text-white dark:bg-black'>2023 - AK DEEPANKAR</h2>
 </section>
 </main>
 </div>
