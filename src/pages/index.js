@@ -310,7 +310,7 @@ export default function Home() {
   </Card>
 </section>
 <section className='flex justify-center mb-5'>
-  <h2 className=' bg-blue-100 p-1 rounded'>2023 - AK DEEPANKAR</h2>
+  <h2 className=' bg-blue-50 p-1 rounded'>2023 - AK DEEPANKAR</h2>
 </section>
 </main>
 </div>
