@@ -49,7 +49,7 @@ export default function Home() {
                AK Deepankar.
             </Text>
             </div>
-            <h3 className='text-gray-800 md:text-2xl md:pt-5 max-w-xl mx-auto'>Student, who is either busy Experimenting <br></br> or pondering over the next big Idea.</h3>
+            <h3 className='text-gray-800 md:text-2xl md:pt-5 max-w-xl mx-auto'>Student, who is either busy <em className='bg-red-100'>Experimenting</em>  <br></br> or pondering over the <em className='bg-green-100'>Next Big Idea.</em></h3>
           </div>
 
           <div className='flex justify-center pt-5'>
