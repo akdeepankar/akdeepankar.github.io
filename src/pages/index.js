@@ -225,12 +225,9 @@ export default function Home() {
         </Grid>
 </section>
 
-<img css={{ position: "absolute", bottom: 0,
-        zIndex: 1, }} src='grd.svg' className='-mt-60 -z-20'/>
-
-<section className='md:z-10 flex justify-center md:text-2xl max-w-xl mx-auto' >
+<section className='md:z-10 flex justify-center md:text-2xl max-w-xl mx-auto mt-5' >
 <Grid>
-        <Card className='border-none -mt-20' css={{
+        <Card className='border-none' css={{
         bgBlur: "#ffffff66",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
@@ -339,6 +336,8 @@ export default function Home() {
 <section className='flex justify-center mb-5'>
   <h2 className=' bg-blue-50 p-1 rounded dark:text-white dark:bg-black'>2023 - AK DEEPANKAR</h2>
 </section>
+<img css={{ position: "absolute", bottom: 0,
+        zIndex: 1, }} src='grd.svg' className='-mt-60 -z-20'/>
 </main>
 </div>
   )
