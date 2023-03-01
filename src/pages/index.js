@@ -227,14 +227,14 @@ export default function Home() {
 </section>
 
 
-<section className='mt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto'  >
+<section className='mt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' style={{ zIndex:'1', backgroundImage:`url(${'https://nextui.org/gradient-right-dark.svg'})`, backgroundPosition: 'center', backgroundSize:'500px'  }}  >
 <Grid>
         <Card className='border-none' css={{
         bgBlur: "#ffffff66",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
         zIndex: 1,
-      }}>
+      }} >
         <Card.Header className='flex justify-between'>
                 <div>
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Projects</h1>
