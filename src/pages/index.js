@@ -176,32 +176,32 @@ export default function Home() {
         <h1 className='pl-3 pt-2 dark:text-white'>Design - Graphic / UI UX</h1>
         <div className='flex justify-between pl-2 pr-2 pt-2'>
           <Avatar
-          size="lg"
+          size="md"
           src="ps.svg"
           squared
         />
         <Avatar
-          size="lg"
+          size="md"
           src="illustrator.svg"
           squared
         />
         <Avatar
-          size="lg"
+          size="md"
           src="fresco.svg"
           squared
         />
         <Avatar
-          size="lg"
+          size="md"
           src="xd.svg"
           squared
         />
         <Avatar
-          size="lg"
+          size="md"
           src="lightroom.svg"
           squared
         />
         <Avatar
-          size="lg"
+          size="md"
           src="animate.svg"
           squared
         />
