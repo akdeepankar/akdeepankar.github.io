@@ -74,7 +74,7 @@ export default function Home() {
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
         zIndex: 1,
-      }} style={{ zIndex:'1', backgroundImage:`url(${'https://nextui.org/gradient-right-dark.svg'})`, backgroundPosition: '150px', backgroundSize:'600px'  }}>
+      }} >
            <Card.Body>
             <Row className='flex justify-between' >
           <a href='https://linkedin.com/in/akdeepankar/'><TiSocialLinkedin className='cursor-pointer text-2xl ml-5 dark:text-white'/></a>
