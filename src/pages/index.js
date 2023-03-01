@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
-import next from 'next'
-import Image from 'next/image'
 import {TiSocialLinkedin, TiSocialTwitter, TiSocialYoutube, TiSocialInstagram, TiSocialGithub} from 'react-icons/ti'
 import {BsBehance, BsGithub} from 'react-icons/bs'
 import {AiFillInstagram} from 'react-icons/ai'
@@ -20,7 +18,12 @@ export default function Home() {
       </Head>
 
       <main className='bg-white px-5 dark:bg-black'>
-        <section className='max-h-screen mt-10 '>
+        <section className='max-h-screen mt-10  '>
+          <nav className='flex justify-between'>
+          <Switch />
+          <BsFillMoonStarsFill className='md:cursor-pointer sm:cursor-pointer z-10'/>
+          </nav>
+
       
           <div className='flex justify-center -mt-24'>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
