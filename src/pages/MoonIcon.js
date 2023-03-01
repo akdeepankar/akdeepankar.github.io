@@ -37,4 +37,6 @@ export const MoonIcon = ({
       </svg>
     );
   };
+
+  export default MoonIcon;
   
