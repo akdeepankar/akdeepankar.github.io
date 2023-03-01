@@ -296,7 +296,7 @@ export default function Home() {
           Teaming Up For A Project or Hackathon ?
         </Text>
         <Text className='bg-black' h4 color="white">
-          Just Ping Me! Anyway I am Still Learning.
+          Just Ping Me! Anyway I am Still Learning & Always Open to New ideas.
         </Text>
       </Col>
     </Card.Header>
@@ -310,7 +310,7 @@ export default function Home() {
   </Card>
 </section>
 <section className='flex justify-center mb-5'>
-  <h2 className='c'>by AK Deepankar, Deployed Using Github Pages.</h2>
+  <h2 className=' bg-blue-100 p-1 rounded'>2023 - AK DEEPANKAR</h2>
 </section>
 </main>
 </div>
