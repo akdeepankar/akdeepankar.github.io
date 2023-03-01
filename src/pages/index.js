@@ -268,7 +268,7 @@ export default function Home() {
         </Col>
         <Col>
           <Row justify="flex-end">
-            <Button flat auto rounded color="secondary">
+            <Button flat auto rounded color="white">
               <Text
                 css={{ color: "black" }}
                 size={12}
