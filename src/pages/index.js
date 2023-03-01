@@ -178,37 +178,31 @@ export default function Home() {
           <Avatar
           size="lg"
           src="ps.svg"
-          bordered
           squared
         />
         <Avatar
           size="lg"
           src="illustrator.svg"
-          bordered
           squared
         />
         <Avatar
           size="lg"
           src="fresco.svg"
-          bordered
           squared
         />
         <Avatar
           size="lg"
           src="xd.svg"
-          bordered
           squared
         />
         <Avatar
           size="lg"
           src="lightroom.svg"
-          bordered
           squared
         />
         <Avatar
           size="lg"
           src="animate.svg"
-          bordered
           squared
         />
         </div>
