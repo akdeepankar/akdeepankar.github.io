@@ -10,6 +10,12 @@ import { MoonIcon } from './MoonIcon';
 import { useState } from 'react'
 
 const a = ['ps.svg', 'illustrator.svg', 'fresco.svg', 'xd.svg', 'lightroom.svg', 'animate.svg'];
+const flat = ['HTML', 'CSS', 'JavaScript']
+const primary = ['BootStrap', 'Tailwind CSS', 'React', 'NextJs']
+const secondary = ['Flask', 'Django']
+const success = ['C', 'Python', 'Java']
+const warning = ['Matplotlib']
+const error = ['VS Code', 'Github']
 
 
 
@@ -117,88 +123,63 @@ export default function Home(props) {
                 <div>
                 <h1 className='pl-3 pb-2 dark:text-white'>Programming / Frameworks / Libraries / Tools</h1>
                 <Grid.Container gap={1}>
-          <Grid>
-            <Badge variant="flat">HTML</Badge>
-          </Grid>
-          <Grid>
-            <Badge variant="flat">CSS</Badge>
-          </Grid>
-          <Grid>
-            <Badge variant="flat">JavaScript</Badge>
-          </Grid>
-          <Grid>
-            <Badge color="primary" variant="flat">
-              BootStrap
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="primary" variant="flat">
-              Tailwind CSS
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="primary" variant="flat">
-              React
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="primary" variant="flat">
-              NextJs
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="secondary" variant="flat">
-              Flask
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="secondary" variant="flat">
-              Django
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="success" variant="flat">
-              C
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="success" variant="flat">
-              Python
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="success" variant="flat">
-              Java
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="warning" variant="flat">
-              Matplotlib
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="error" variant="flat">
-              VS Code
-            </Badge>
-          </Grid>
-          <Grid>
-            <Badge color="error" variant="flat">
-              Github
-            </Badge>
-          </Grid>
-        </Grid.Container>
+              <div className='pl-2'>
+                {flat.map(i => {
+                return(
+                  <Badge color="flat" variant="flat" className='p-1'>
+                      {i}
+                    </Badge>
+                )  
+                })}
+                {primary.map(i => {
+                return(
+                  <Badge color="primary" variant="flat" className='p-1'>
+                      {i}
+                    </Badge>
+                )  
+                })}
+                {secondary.map(i => {
+                return(
+                  <Badge color="secondary" variant="flat" className='p-1'>
+                      {i}
+                    </Badge>
+                )  
+                })}
+                {success.map(i => {
+                return(
+                  <Badge color="success" variant="flat" className='p-1'>
+                      {i}
+                    </Badge>
+                )  
+                })}
+                {warning.map(i => {
+                return(
+                  <Badge color="warning" variant="flat" className='p-1'>
+                      {i}
+                    </Badge>
+                )  
+                })}
+                {error.map(i => {
+                return(
+                  <Badge color="error" variant="flat" className='p-1'>
+                      {i}
+                    </Badge>
+                )  
+                })}
+              </div>
+            </Grid.Container>
 
-        <h1 className='pl-3 pt-2 dark:text-white'>Design - Graphic / UI UX</h1>
-        <div className='flex justify-between pl-2 pt-2'>
-        {a.map(i => {
-        return <Avatar
-        size="md"
-        src={i}
-        squared
-        />;
-        })}
-        </div>
-        </div>
+            <h1 className='pl-3 pt-2 dark:text-white'>Design - Graphic / UI UX</h1>
+            <div className='flex justify-between pl-2 pt-2'>
+            {a.map(i => {
+            return <Avatar
+            size="md"
+            src={i}
+            squared
+            />;
+            })}
+            </div>
+            </div>
         </Card.Body>
         </Card>
         </Grid>
