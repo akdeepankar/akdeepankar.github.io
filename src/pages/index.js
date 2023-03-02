@@ -90,6 +90,7 @@ export default function Home() {
         </Row>    
         <Text className='-mt-5' b size={14}>ORIGIN: 'Marathi', 'Maharastra'</Text>
         <Text b size={24}>DEEPANKAR</Text>
+        <Text className='-mt-5' b size={14}>ORIGIN: East Indian States</Text>
         <Text className='-mt-5' b size={14}>MEANING: One Who Lights the Lamp</Text>
         </Modal.Body>
         <Modal.Footer>
