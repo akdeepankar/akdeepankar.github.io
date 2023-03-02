@@ -107,7 +107,6 @@ export default function Home() {
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Skills</h1>
                 </div>
                 <div className='-mt-2 ml-2'>
-              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
               <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ht8zw3es.json"  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
               </div>
               </Card.Header>
@@ -240,7 +239,6 @@ export default function Home() {
                 <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Projects</h1>
                 </div>
                 <div className='-mt-2 ml-2'>
-              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
               <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_hylaaytn.json"  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
               </div>
               </Card.Header>
