@@ -225,13 +225,13 @@ export default function Home() {
       }} >
         <Card.Header className='flex justify-between'>
                 <div>
-                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Projects</h1>
+                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-10 dark:text-white'>Projects</h1>
                 </div>
-                <div className='-mt-2 ml-2'>
-              <lottie-player src={intro.projectlottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
+                <div className='-mt-4 ml-2'>
+              <lottie-player src={intro.projectlottie}  background="transparent"  speed="1"  style={{width: 70, height: 80}}  loop  autoplay></lottie-player>
               </div>
               </Card.Header>
-          <Card.Divider className='dark:bg-white' />
+          <Card.Divider className='dark:bg-white -mt-6' />
           <Card.Body css={{ py: "$10" }}>
             <div>
 
