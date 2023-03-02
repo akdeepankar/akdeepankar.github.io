@@ -74,11 +74,12 @@ export default function Home() {
         aria-labelledby="modal-title"
         open={visible}
         onClose={closeHandler}
+        width="350PX"
       >
         <Modal.Header>
           <Text id="modal-title" size={18}>
             <Text b size={18}>
-              A B O U T
+              M E A N I N G
             </Text>
           </Text>
         </Modal.Header>
