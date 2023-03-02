@@ -66,7 +66,7 @@ export default function Home() {
                >
                {intro.name}
             </Text>
-            <Button className='flex justify-start mt-1 ml-2' auto icon={<UserIcon className="-m-1 dark:text-white" fill="currentColor" />} color="flat" flat onPress={handler}></Button>
+            <Button className='flex mt-2 ml-2 bg-gray-200 dark:bg-black w-8 h-8' auto icon={<UserIcon className=" dark:text-white w-4" fill="currentColor" />} color="flat" flat onPress={handler}></Button>
             <div>
       <Modal
         closeButton
