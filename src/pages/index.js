@@ -3,7 +3,7 @@ import { Card, Row, Button, Col, Text, Grid, Badge, Avatar, Switch } from "@next
 import { SunIcon } from './SunIcon';
 import { MoonIcon } from './MoonIcon';
 import { useState } from 'react'
-import {a, flat, primary, secondary, success, warning, error, social, project, poster, intro} from './content'
+import {a, flat, primary, secondary, success, warning, error, social, project, poster, intro} from '../content'
 
 
 export default function Home() {
