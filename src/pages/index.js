@@ -9,9 +9,11 @@ import { SunIcon } from './SunIcon';
 import { MoonIcon } from './MoonIcon';
 import { useState } from 'react'
 
+const a = ['ps.svg', 'illustrator.svg', 'fresco.svg', 'xd.svg', 'lightroom.svg', 'animate.svg'];
 
 
-export default function Home() {
+
+export default function Home(props) {
   const [darkMode, setDarkMode] = useState(false)
   return (
     <div className={darkMode ? "dark" : ""} >
@@ -187,37 +189,14 @@ export default function Home() {
         </Grid.Container>
 
         <h1 className='pl-3 pt-2 dark:text-white'>Design - Graphic / UI UX</h1>
-        <div className='flex justify-between pl-2 pr-2 pt-2'>
-          <Avatar
-          size="md"
-          src="ps.svg"
-          squared
-        />
-        <Avatar
-          size="md"
-          src="illustrator.svg"
-          squared
-        />
-        <Avatar
-          size="md"
-          src="fresco.svg"
-          squared
-        />
-        <Avatar
-          size="md"
-          src="xd.svg"
-          squared
-        />
-        <Avatar
-          size="md"
-          src="lightroom.svg"
-          squared
-        />
-        <Avatar
-          size="md"
-          src="animate.svg"
-          squared
-        />
+        <div className='flex justify-between pl-2 pt-2'>
+        {a.map(i => {
+        return <Avatar
+        size="md"
+        src={i}
+        squared
+        />;
+        })}
         </div>
         </div>
         </Card.Body>
