@@ -74,7 +74,7 @@ export default function Home() {
         aria-labelledby="modal-title"
         open={visible}
         onClose={closeHandler}
-        width="350PX"
+        width="330PX"
       >
         <Modal.Header>
           <Text id="modal-title" size={18}>
