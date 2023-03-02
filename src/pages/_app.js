@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-CRXECVZSY4`}
       />
 
       <Script strategy="lazyOnload">
@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-XXXXXXXXXX');
+          gtag('config', 'G-CRXECVZSY4');
         `}
       </Script>
 
