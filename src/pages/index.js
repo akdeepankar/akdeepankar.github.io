@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Card, Row, Button, Col, Text, Grid, Badge, Avatar, Switch, Modal } from "@nextui-org/react";
 import { SunIcon } from './SunIcon';
 import { MoonIcon } from './MoonIcon';
-import { UserIcon } from './UserIcon';
+import { UserIcon } from '../UserIcon';
 import { useState } from 'react'
 import {a, flat, primary, secondary, success, warning, error, social, project, poster, intro} from '../content'
 
@@ -66,7 +66,7 @@ export default function Home() {
                >
                {intro.name}
             </Text>
-            <Button className='flex justify-start mt-1' auto icon={<UserIcon className="-m-1 dark:text-white" fill="currentColor" />} color="flat" flat onPress={handler}></Button>
+            <Button className='flex justify-start mt-1 ml-2' auto icon={<UserIcon className="-m-1 dark:text-white" fill="currentColor" />} color="flat" flat onPress={handler}></Button>
             <div>
       <Modal
         closeButton
