@@ -7,7 +7,7 @@ export const intro = {
     introlottie: 'https://assets7.lottiefiles.com/packages/lf20_aesgckiv.json',
     greet: 'Hey There!',
     intro: 'I am',
-    name: 'AK Deepankar.',
+    name: 'AK Deepankar',
     desc: 'Student, who is either busy ',
     desc2: 'Experimenting',
     desc3: 'or',
