@@ -1,13 +1,21 @@
 import Head from 'next/head'
-import { Card, Row, Button, Col, Text, Grid, Badge, Avatar, Switch } from "@nextui-org/react";
+import { Card, Row, Button, Col, Text, Grid, Badge, Avatar, Switch, Modal } from "@nextui-org/react";
 import { SunIcon } from './SunIcon';
 import { MoonIcon } from './MoonIcon';
+import { UserIcon } from './UserIcon';
 import { useState } from 'react'
 import {a, flat, primary, secondary, success, warning, error, social, project, poster, intro} from '../content'
 
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
+
+  const [visible, setVisible] = useState(false);
+  const handler = () => setVisible(true);
+  const closeHandler = () => {
+    setVisible(false);
+    console.log("closed");
+  };
   return (
     <div className={darkMode ? "dark" : ""} >
       <Head>
@@ -58,9 +66,43 @@ export default function Home() {
                >
                {intro.name}
             </Text>
+            <Button className='flex justify-start mt-1' auto icon={<UserIcon className="-m-1 dark:text-white" fill="currentColor" />} color="flat" flat onPress={handler}></Button>
+            <div>
+      <Modal
+        closeButton
+        blur
+        aria-labelledby="modal-title"
+        open={visible}
+        onClose={closeHandler}
+      >
+        <Modal.Header>
+          <Text id="modal-title" size={18}>
+            <Text b size={18}>
+              A B O U T
+            </Text>
+          </Text>
+        </Modal.Header>
+        <Modal.Body>    
+        <Row>
+        <Text b size={24}>AK</Text>
+        <Text className='pl-2 pt-2' b size={14}>( AMBEDKARITE )</Text>
+        </Row>    
+        <Text className='-mt-5' b size={14}>ORIGIN: 'Marathi', 'Maharastra'</Text>
+        <Text b size={24}>DEEPANKAR</Text>
+        <Text className='-mt-5' b size={14}>MEANING: One Who Lights the Lamp</Text>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button auto flat color="error" onPress={closeHandler}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </div>
             </div>
             <h3 className='text-gray-800 md:text-2xl md:pt-5 max-w-xl mx-auto dark:text-white'>{intro.desc}<em>{intro.desc2}</em>  <br></br> {intro.desc3} <em>{intro.desc4}</em> {intro.desc5} <em className='bg-green-100 dark:text-black'>{intro.desc6}</em></h3>
           </div>
+
+          
 
           <div className='flex justify-center pt-5 '>
           <Grid>
