@@ -155,7 +155,7 @@ export default function Home() {
               <div className='pl-2'>
                 {flat.map(i => {
                 return(
-                  <Badge color="flat" variant="flat" className='p-1'>
+                  <Badge color="flat" variant="flat" className='p-1 dark:text-white'>
                       {i}
                     </Badge>
                 )  
