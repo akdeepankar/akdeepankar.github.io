@@ -118,7 +118,7 @@ export default function Home() {
             <Row className='flex justify-between' >    
              {social.map(i => {
                 return(
-                  <a href={i.link}><i.icon className='cursor-pointer text-2xl ml-5 dark:text-white'/></a>
+                  <a href={i.link}><i.icon className='cursor-pointer text-2xl ml-3 mr-3 dark:text-white'/></a>
                 )  
                 })}
            </Row>        
