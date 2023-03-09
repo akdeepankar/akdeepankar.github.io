@@ -2,6 +2,7 @@ import {TiSocialLinkedin, TiSocialTwitter, TiSocialYoutube} from 'react-icons/ti
 import {BsBehance, BsGithub} from 'react-icons/bs'
 import {AiFillInstagram} from 'react-icons/ai'
 
+//Datas
 
 export const intro = {
     introlottie: 'https://assets7.lottiefiles.com/packages/lf20_aesgckiv.json',
