@@ -19,7 +19,7 @@ export const intro = {
     projectlottie: 'https://assets2.lottiefiles.com/packages/lf20_rmizwv6a.json',
 }
 
-export const a = ['ps.svg', 'illustrator.svg', 'fresco.svg', 'xd.svg', 'lightroom.svg', 'animate.svg'];
+export const a = ['ps.svg', 'illustrator.svg', 'fresco.svg', 'xd.svg', 'lightroom.svg', 'animate.svg', 'pr.svg'];
 export const flat = ['HTML', 'CSS', 'JavaScript']
 export const primary = ['BootStrap', 'Tailwind CSS', 'React', 'NextJs']
 export const secondary = []
