@@ -215,64 +215,72 @@ export default function Home() {
         </Grid>
 </section>
 
-<section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
-  
-            <Card className='border-none mr-2' css={{
-        bgBlur: "#ffffff66",
-        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
-        bottom: 0,
-        zIndex: 1,
-      }} >
-              <Card.Header className='flex justify-between'>
-                <div>
-                <h1 className='text-2xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Apps</h1>
-                </div>
-                <div className='-mt-2 ml-2'>
-              <lottie-player src={intro.appslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
-              </div>
-              </Card.Header>
-              <Card.Divider className='dark:bg-white' />
-              <Card.Body css={{ py: "$10" }} >
-                <div className=''>
-                  <Image width={40} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
-                  <div className='p-2'>
-                  <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
-                                  <Image width={90} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
-                </Link>
+<section className='pt-2 flex justify-around md:text-2xl md:pt-5 max-w-xl mx-auto' >
+
+            <div className='mr-2'>
+            <Card className='border-none' css={{
+                  bgBlur: "#ffffff66",
+                  borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+                  bottom: 0,
+                  zIndex: 1,
+                }} >
+                <Card.Header className='flex justify-between'>
+                  <div>
+                  <h1 className='text-2xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Apps</h1>
                   </div>
+                  <div className='-mt-2 ml-2'>
+                <lottie-player src={intro.appslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
                 </div>
-        </Card.Body>
-        </Card>
+                </Card.Header>
+                <Card.Divider className='dark:bg-white' />
+                <Card.Body css={{ py: "$10" }} >
+                  <div className=''>
+                    <Image width={40} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
+                    <div className='p-2'>
+                    <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
+                                    <Image width={90} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
+                  </Link>
+                    </div>
+                  </div>
+          </Card.Body>
+          </Card>
+            </div>
+            <div>
+                <Card className='border-none' css={{
+                  bgBlur: "#ffffff66",
+                  borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+                  bottom: 0,
+                  zIndex: 1,
+                }} >
+                  <Card.Header className='flex justify-between'>
+                    <div>
+                    <h1 className='text-2xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Books</h1>
+                    </div>
+                    <div className='-mt-2 ml-2'>
+                  <lottie-player src={intro.bookslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
+                  </div>
+                  </Card.Header>
+                  <Card.Divider className='dark:bg-white' />
+                  <Card.Body css={{ py: "$3" }} >
+                    <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
+
+                      <div className='justify-center'>
+                      <Image width={100} className='rounded-xl' src="https://m.media-amazon.com/images/I/41RIrW0+GWL.jpg" alt=""></Image>  
+                      <Image width={100} className='rounded-xl p-1' src="https://m.media-amazon.com/images/I/21EzREA+0yL.svg" alt=""></Image>  
+                      <h1 className='pl-2'>or Ping For Free Copy.</h1>
+                      </div>
+
+                    </Link>
+                    
+            </Card.Body>
+            </Card>
+            </div>
+
+  
+            
       
  
-            <Card className='border-none' css={{
-        bgBlur: "#ffffff66",
-        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
-        bottom: 0,
-        zIndex: 1,
-      }} >
-              <Card.Header className='flex justify-between'>
-                <div>
-                <h1 className='text-2xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Books</h1>
-                </div>
-                <div className='-mt-2 ml-2'>
-              <lottie-player src={intro.bookslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
-              </div>
-              </Card.Header>
-              <Card.Divider className='dark:bg-white' />
-              <Card.Body css={{ py: "$3" }} >
-                <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
 
-                  <div className='justify-center'>
-                  <Image width={100} className='rounded-xl' src="https://m.media-amazon.com/images/I/41RIrW0+GWL.jpg" alt=""></Image>  
-                  <Image width={100} className='rounded-xl p-1' src="https://m.media-amazon.com/images/I/21EzREA+0yL.svg" alt=""></Image>  
-                  <h1 className='pl-2'>or Ping For Free Copy.</h1>
-                  </div>
-
-                </Link>
-                
-        </Card.Body>
-        </Card>
 
 
 </section>
