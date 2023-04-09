@@ -244,6 +244,7 @@ export default function Home() {
                   </div>
           </Card.Body>
           </Card>
+          <Image className='rounded-xl' src='pandasleeping.png' alt=''></Image>
             </div>
             <div>
                 <Card className='border-none' css={{
@@ -267,7 +268,7 @@ export default function Home() {
                       <div className='justify-center'>
                       <Image width={100} className='rounded-xl' src="https://m.media-amazon.com/images/I/41RIrW0+GWL.jpg" alt=""></Image>  
                       <Image width={100} className='rounded-xl p-1' src="https://m.media-amazon.com/images/I/21EzREA+0yL.svg" alt=""></Image>  
-                      <h1 className='pl-2'>or Ping For Free Copy.</h1>
+                      <h1 className='pl-2 dark:text-white '>or Ping For Free Copy.</h1>
                       </div>
 
                     </Link>
