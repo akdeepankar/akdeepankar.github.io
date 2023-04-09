@@ -244,12 +244,7 @@ export default function Home() {
                 </div>
         </Card.Body>
         </Card>
-        
-        <div className='pt-2'>
-            <Image width={100} className='rounded-lg ' src="pandasleeping.png" alt=""></Image>  
-        </div>
-
-        
+      
         </Grid>
 
         <Grid>
