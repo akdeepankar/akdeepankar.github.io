@@ -119,7 +119,7 @@ export default function Home() {
             <Row className='flex justify-between' >    
              {social.map(i => {
                 return(
-                  <a href={i.link}><i.icon className='cursor-pointer text-2xl ml-3 mr-3 dark:text-white'/></a>
+                  <Link scroll={false} href={i.link}><i.icon className='cursor-pointer text-2xl ml-3 mr-3 dark:text-white'/></Link>
                 )  
                 })}
            </Row>        
@@ -240,7 +240,7 @@ export default function Home() {
                     <h1 className='text-xs pt-1 font-semibold'>BUDDHA TUNES</h1>
                     </div> 
                     <div className='p-1'>
-                    <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
+                    <Link scroll={false} href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
                                     <Image width={90} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
                   </Link>
                     </div>
@@ -268,7 +268,7 @@ export default function Home() {
                   </Card.Header>
                   <Card.Divider className='dark:bg-white' />
                   <Card.Body css={{ py: "$5" }} >
-                    <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
+                    <Link scroll={false} href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
 
                       <div className='justify-center'>
                       <Image width={100} className='rounded-xl' src="https://m.media-amazon.com/images/I/41RIrW0+GWL.jpg" alt=""></Image>  
@@ -379,6 +379,38 @@ export default function Home() {
 
 </section>
 
+
+
+<section className='mt-5 mb-5 md:text-2xl md:pt-5 max-w-xl mx-auto'>
+
+{poster.map(i => {
+            return <Card className=' border-none h-40 mb-2'>
+            <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+              <Col>
+                <Text className='bg-black' size={16} weight="bold" transform="uppercase" color="#ffffff">
+                  {i.head1}
+                </Text>
+                <Text className='bg-black' h4 color="white">
+                  {i.head2}
+                </Text>
+              </Col>
+            </Card.Header>
+            <Card.Image
+              src={i.background}
+              objectFit="cover"
+              width="100%"
+              height="100%"
+              alt="Card image background"
+            />
+          </Card>
+            })}
+
+</section>
+<section className='flex justify-center mb-5'>
+<Button bordered color="primary" auto>
+2023 - AK DEEPANKAR
+        </Button>
+</section>
 </section>
 </main>
 </div>
