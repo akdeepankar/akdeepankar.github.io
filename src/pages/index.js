@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-5 pt-5 pb-5 dark:bg-black' > 
+      <main className='bg-white px-5 pt-5 pb-5 dark:bg-black' style={{ zIndex:'-1', backgroundImage:`url(${'https://nextui.org/gradient-left-dark.svg'})`, backgroundPosition: '-100px'  }}> 
         <section >
         <section className='max-h-screen'>
           <nav className='flex justify-end'>
@@ -291,93 +291,6 @@ export default function Home() {
 
 </section>
 
-
-<section className='mt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' style={{ zIndex:'1', backgroundImage:`url(${'https://nextui.org/gradient-right-dark.svg'})`, backgroundPosition: 'center', backgroundSize:'500px'  }}  >
-<Grid>
-        <Card className='border-none' css={{
-        bgBlur: "#ffffff66",
-        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
-        bottom: 0,
-        zIndex: 1,
-      }} >
-        <Card.Header className='flex justify-between'>
-                <div>
-                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-10 dark:text-white'>Projects</h1>
-                </div>
-                <div className='-mt-4 ml-2'>
-              <lottie-player src={intro.projectlottie}  background="transparent"  speed="1"  style={{width: 70, height: 80}}  loop  autoplay></lottie-player>
-              </div>
-              </Card.Header>
-          <Card.Divider className='dark:bg-white -mt-6' />
-          <Card.Body css={{ py: "$10" }}>
-            <div>
-
-            {project.map(i => {
-            return <Card css={{ w: "100%", h: "200px" }} className='mb-2'>
-            <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
-              <Col>
-                <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-                     {i.head1}
-                </Text>
-                <Text h3 color="white">
-                    {i.head2}
-                </Text>
-              </Col>
-            </Card.Header>
-                <Card.Body css={{ p: 0 }}>
-                    <Card.Image
-                    src={i.background}
-                    width="100%"
-                    height="100%"
-                    objectFit="cover"
-                    alt="Card example background"
-                    />
-                </Card.Body>
-          <Card.Footer
-                    isBlurred
-                    css={{
-                      position: "absolute",
-                      bgBlur: "#ffffff66",
-                      borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
-                      bottom: 0,
-                      zIndex: 1,
-                    }}
-                    >
-            <Row>
-                <Col>
-                    <Text color="#000" size={12}>
-                      {i.foot1}
-                    </Text>
-                    <Text color="#000" size={12}>
-                      {i.foot2}
-                    </Text> 
-                </Col>
-              <Col>
-                <Row justify="flex-end">
-                  <Button flat auto rounded color="white">
-                    <Text
-                      css={{ color: "black" }}
-                      size={12}
-                      weight="bold"
-                      transform="uppercase"
-                    >
-                      {i.techstack}
-                    </Text>
-                  </Button>
-                </Row>
-              </Col>
-            </Row>
-          </Card.Footer>
-        </Card>
-            })}
-
-            </div>
-          </Card.Body>
-        </Card>
-      </Grid>
-
-
-</section>
 
 
 
