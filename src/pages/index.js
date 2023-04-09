@@ -234,7 +234,7 @@ export default function Home() {
               </Card.Header>
               <Card.Divider className='dark:bg-white' />
               <Card.Body css={{ py: "$10" }} >
-                <div className='flex'>
+                <div className=''>
                   <Image width={40} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
                   <div className='p-2'>
                   <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
@@ -246,7 +246,7 @@ export default function Home() {
         </Card>
         
         <div className='pt-2'>
-            <Image width={100} className='rounded-lg ' src="pandasleeping.png" alt=""></Image>  
+            <Image width={150} className='rounded-lg ' src="pandasleeping.png" alt=""></Image>  
         </div>
 
         
