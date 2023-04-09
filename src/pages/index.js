@@ -235,8 +235,10 @@ export default function Home() {
                 <Card.Divider className='dark:bg-white' />
                 <Card.Body css={{ py: "$10" }} >
                   <div className=''>
-                    <Image width={60} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
-                    <h1 className='text-xs pl-2 pt-1 font-semibold'>BUDDHA TUNES</h1>
+                    <Image width={60} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image> 
+                    <div className='flex justify-center'>
+                    <h1 className='text-xs pt-1 font-semibold'>BUDDHA TUNES</h1>
+                    </div> 
                     <div className='p-1'>
                     <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
                                     <Image width={90} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
@@ -246,7 +248,7 @@ export default function Home() {
           </Card.Body>
           </Card>
           <div className='pt-2'>
-          <Image width={130} className='rounded-xl' src='pandasleeping.png' alt=''></Image>
+          <Image width={140} className='rounded-xl' src='pandasleeping.png' alt=''></Image>
           </div>
             </div>
             <div>
