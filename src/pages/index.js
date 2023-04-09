@@ -237,14 +237,10 @@ export default function Home() {
                 <div className='flex'>
                   <Image width={50} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
                   <div className='p-1'>
-                    <h1 className='font-bold'>BUDDHA TUNES</h1>
-                    <h1>Published: July 2020</h1>
-                  </div>
-                </div>
-                <div>
-                <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
+                  <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
                                   <Image width={100} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
                 </Link>
+                  </div>
                 </div>
         </Card.Body>
         </Card>
@@ -272,7 +268,7 @@ export default function Home() {
               </div>
               </Card.Header>
               <Card.Divider className='dark:bg-white' />
-              <Card.Body css={{ py: "$10" }} >
+              <Card.Body css={{ py: "$5" }} >
                 <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
 
                   <div className='justify-center'>
