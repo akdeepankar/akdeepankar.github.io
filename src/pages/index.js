@@ -379,34 +379,6 @@ export default function Home() {
 
 </section>
 
-
-
-<section className='mt-5 mb-5 md:text-2xl md:pt-5 max-w-xl mx-auto'>
-
-{poster.map(i => {
-            return <Card className=' border-none h-40 mb-2'>
-            <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
-              <Col>
-                <Text className='bg-black' size={16} weight="bold" transform="uppercase" color="#ffffff">
-                  {i.head1}
-                </Text>
-                <Text className='bg-black' h4 color="white">
-                  {i.head2}
-                </Text>
-              </Col>
-            </Card.Header>
-            <Card.Image
-              src={i.background}
-              objectFit="cover"
-              width="100%"
-              height="100%"
-              alt="Card image background"
-            />
-          </Card>
-            })}
-
-</section>
-
 </section>
 </main>
 </div>
