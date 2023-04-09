@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import { Card, Row, Button, Col, Text, Grid, Badge, Avatar, Switch, Modal } from "@nextui-org/react";
+import { Card, Row, Button, Col, Text, Grid, Badge, Avatar, Switch, Modal, Image } from "@nextui-org/react";
 import { SunIcon } from './SunIcon';
 import { MoonIcon } from './MoonIcon';
 import { UserIcon } from '../UserIcon';
 import { useState } from 'react'
 import {a, flat, primary, secondary, success, warning, error, social, project, poster, intro} from '../content'
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -212,6 +213,81 @@ export default function Home() {
         </Card.Body>
         </Card>
         </Grid>
+</section>
+
+<section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
+  <Grid.Container className='flex justify-around' gap={0.5}>
+        <Grid>
+            <Card className='border-none' css={{
+        bgBlur: "#ffffff66",
+        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+        bottom: 0,
+        zIndex: 1,
+      }} >
+              <Card.Header className='flex justify-between'>
+                <div>
+                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Apps</h1>
+                </div>
+                <div className='-mt-2 ml-2'>
+              <lottie-player src={intro.appslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
+              </div>
+              </Card.Header>
+              <Card.Divider className='dark:bg-white' />
+              <Card.Body css={{ py: "$10" }} >
+                <div className='flex'>
+                  <Image width={50} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
+                  <div className='p-1'>
+                    <h1 className='font-bold'>BUDDHA TUNES</h1>
+                    <h1>Published: July 2020</h1>
+                  </div>
+                </div>
+                <div>
+                <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
+                                  <Image width={100} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
+                </Link>
+                </div>
+        </Card.Body>
+        </Card>
+        
+        <div className='pt-2'>
+            <Image width={200} className='rounded-lg ' src="pandasleeping.png" alt=""></Image>  
+        </div>
+
+        
+        </Grid>
+
+        <Grid>
+            <Card className='border-none' css={{
+        bgBlur: "#ffffff66",
+        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+        bottom: 0,
+        zIndex: 1,
+      }} >
+              <Card.Header className='flex justify-between'>
+                <div>
+                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Books</h1>
+                </div>
+                <div className='-mt-2 ml-2'>
+              <lottie-player src={intro.bookslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
+              </div>
+              </Card.Header>
+              <Card.Divider className='dark:bg-white' />
+              <Card.Body css={{ py: "$10" }} >
+                <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
+
+                  <div className='justify-center'>
+                  <Image width={100} className='rounded-xl' src="https://m.media-amazon.com/images/I/41RIrW0+GWL.jpg" alt=""></Image>  
+                  <Image width={100} className='rounded-xl p-1' src="https://m.media-amazon.com/images/I/21EzREA+0yL.svg" alt=""></Image>  
+                  <h1 className='pl-2'>or Ping For Free Copy.</h1>
+                  </div>
+
+                </Link>
+                
+        </Card.Body>
+        </Card>
+        </Grid>
+  </Grid.Container>
+
 </section>
 
 

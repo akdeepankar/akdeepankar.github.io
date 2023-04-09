@@ -17,6 +17,8 @@ export const intro = {
     desc6: 'Next Big Idea.',
     skilllottie: 'https://assets1.lottiefiles.com/packages/lf20_ht8zw3es.json',
     projectlottie: 'https://assets2.lottiefiles.com/packages/lf20_rmizwv6a.json',
+    appslottie: 'https://assets8.lottiefiles.com/packages/lf20_7aRSwB.json',
+    bookslottie: 'https://assets2.lottiefiles.com/packages/lf20_yg29hewu.json',
 }
 
 export const a = ['ps.svg', 'illustrator.svg', 'fresco.svg', 'xd.svg', 'animate.svg', 'lightroom.svg', 'pr.svg'];
