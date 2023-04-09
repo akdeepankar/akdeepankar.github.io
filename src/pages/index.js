@@ -216,7 +216,7 @@ export default function Home() {
 </section>
 
 <section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
-  <Grid.Container className='flex justify-around'>
+  <Grid.Container className='' gap={1}>
         <Grid>
             <Card className='border-none' css={{
         bgBlur: "#ffffff66",
@@ -226,7 +226,7 @@ export default function Home() {
       }} >
               <Card.Header className='flex justify-between'>
                 <div>
-                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Apps</h1>
+                <h1 className='text-2xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Apps</h1>
                 </div>
                 <div className='-mt-2 ml-2'>
               <lottie-player src={intro.appslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
@@ -261,14 +261,14 @@ export default function Home() {
       }} >
               <Card.Header className='flex justify-between'>
                 <div>
-                <h1 className='text-3xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Books</h1>
+                <h1 className='text-2xl text-black-600 pt-5 font-bold -mt-4 dark:text-white '>Books</h1>
                 </div>
                 <div className='-mt-2 ml-2'>
               <lottie-player src={intro.bookslottie}  background="transparent"  speed="1"  style={{width: 50, height: 50}}  loop  autoplay></lottie-player>
               </div>
               </Card.Header>
               <Card.Divider className='dark:bg-white' />
-              <Card.Body css={{ py: "$4" }} >
+              <Card.Body css={{ py: "$3" }} >
                 <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
 
                   <div className='justify-center'>
