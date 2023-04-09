@@ -236,7 +236,8 @@ export default function Home() {
                 <Card.Body css={{ py: "$10" }} >
                   <div className=''>
                     <Image width={60} className='rounded-xl' src="https://play-lh.googleusercontent.com/fH_k4XeB6HsbQJp3AuMjJ3PTDgeMX45mkNEZO4bGs6CoCgSnjmlHG0dzQwK6SVCU1Q=w240-h480-rw" alt=""></Image>  
-                    <div className='p-2'>
+                    <h1 className='text-xs pl-2 pt-1 font-semibold'>BUDDHA TUNES</h1>
+                    <div className='p-1'>
                     <Link href={'https://play.google.com/store/apps/details?id=ak.buddhatunes'}>
                                     <Image width={90} className='rounded-xl pt-2 pb-2' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg" alt=""></Image>  
                   </Link>
@@ -264,13 +265,13 @@ export default function Home() {
                   </div>
                   </Card.Header>
                   <Card.Divider className='dark:bg-white' />
-                  <Card.Body css={{ py: "$3" }} >
+                  <Card.Body css={{ py: "$5" }} >
                     <Link href="https://www.amazon.in/Palace-Ghost-AK-Deepankar-ebook/dp/B08818WX6L">
 
                       <div className='justify-center'>
                       <Image width={100} className='rounded-xl' src="https://m.media-amazon.com/images/I/41RIrW0+GWL.jpg" alt=""></Image>  
                       <Image width={100} className='rounded-xl p-1' src="https://m.media-amazon.com/images/I/21EzREA+0yL.svg" alt=""></Image>  
-                      <h1 className='pl-2 dark:text-white '>or Ping For Free Copy.</h1>
+                      <h1 className='pl-2 dark:text-white text-sm '>or Ping For Free Copy.</h1>
                       </div>
 
                     </Link>
