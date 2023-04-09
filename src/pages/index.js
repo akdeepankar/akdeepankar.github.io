@@ -216,9 +216,8 @@ export default function Home() {
 </section>
 
 <section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
-  <Grid.Container className='' gap={1}>
-        <Grid>
-            <Card className='border-none' css={{
+  
+            <Card className='border-none mr-2' css={{
         bgBlur: "#ffffff66",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
@@ -245,9 +244,7 @@ export default function Home() {
         </Card.Body>
         </Card>
       
-        </Grid>
-
-        <Grid>
+ 
             <Card className='border-none' css={{
         bgBlur: "#ffffff66",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
@@ -276,8 +273,7 @@ export default function Home() {
                 
         </Card.Body>
         </Card>
-        </Grid>
-  </Grid.Container>
+
 
 </section>
 
