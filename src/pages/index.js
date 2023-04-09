@@ -216,7 +216,7 @@ export default function Home() {
 </section>
 
 <section className='pt-5 flex justify-center md:text-2xl md:pt-5 max-w-xl mx-auto' >
-  <Grid.Container className='flex justify-around' gap={0.5}>
+  <Grid.Container className='flex justify-around'>
         <Grid>
             <Card className='border-none' css={{
         bgBlur: "#ffffff66",
