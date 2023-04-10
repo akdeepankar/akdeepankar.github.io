@@ -28,17 +28,7 @@ export default function Home() {
 
       <main className='bg-white px-5 pt-5 pb-5 dark:bg-black' style={{ zIndex:'-1', backgroundImage:`url(${'https://nextui.org/gradient-left-dark.svg'})`, backgroundPosition: '-100px'  }}> 
         <section className='max-h-screen'>
-          <nav className='flex justify-end'>
-          <Switch
-          onChange={() => setDarkMode(!darkMode)}
-          className='z-50'
-          checked={false}
-          size="sm"
-          shadow color ="warning"
-          iconOn={<SunIcon filled />}
-          iconOff={<MoonIcon filled />}
-        />
-          </nav>  
+
           <div className='flex justify-center -mt-24'>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src={intro.introlottie}  background="transparent" speed="1"  style={{width: 500, height: 500}}  loop  autoplay></lottie-player>
