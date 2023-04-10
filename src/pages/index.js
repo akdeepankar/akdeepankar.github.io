@@ -183,7 +183,7 @@ export default function Home() {
 
 <section className='pt-2 flex justify-around md:text-2xl md:pt-5 max-w-xl mx-auto' >
 
-            <div className='mr-2'>
+            <div className=''>
             <Card className='border-none' css={{
                   bgBlur: "#ffffff66",
                   borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
