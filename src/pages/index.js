@@ -27,7 +27,6 @@ export default function Home() {
       </Head>
 
       <main className='bg-white px-5 pt-5 pb-5 dark:bg-black' style={{ zIndex:'-1', backgroundImage:`url(${'https://nextui.org/gradient-left-dark.svg'})`, backgroundPosition: '-100px'  }}> 
-        <section >
         <section className='max-h-screen'>
           <nav className='flex justify-end'>
           <Switch
@@ -410,7 +409,6 @@ export default function Home() {
 <Button bordered color="primary" auto>
 2023 - AK DEEPANKAR
         </Button>
-</section>
 </section>
 </main>
 </div>
