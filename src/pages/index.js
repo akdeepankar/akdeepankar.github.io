@@ -28,7 +28,17 @@ export default function Home() {
 
       <main className='bg-white px-5 pt-5 pb-5 dark:bg-black' style={{ zIndex:'-1', backgroundImage:`url(${'https://nextui.org/gradient-left-dark.svg'})`, backgroundPosition: '-100px'  }}> 
         <section className='max-h-screen'>
-
+          <nav className='flex justify-end'>
+          <Switch
+          onChange={() => setDarkMode(!darkMode)}
+          className='z-50'
+          checked={false}
+          size="sm"
+          shadow color ="warning"
+          iconOn={<SunIcon filled />}
+          iconOff={<MoonIcon filled />}
+        />
+          </nav>  
           <div className='flex justify-center -mt-24'>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src={intro.introlottie}  background="transparent" speed="1"  style={{width: 500, height: 500}}  loop  autoplay></lottie-player>
@@ -56,40 +66,7 @@ export default function Home() {
                >
                {intro.name}
             </Text>
-            <Button className='flex mt-2 ml-2 bg-gray-200 dark:bg-black w-8 h-8' auto icon={<UserIcon className=" dark:text-white w-4" fill="currentColor" />} color="flat" flat onPress={handler}></Button>
-            <div>
-      <Modal
-        closeButton
-        blur
-        aria-labelledby="modal-title"
-        open={visible}
-        onClose={closeHandler}
-        width="330PX"
-      >
-        <Modal.Header>
-          <Text id="modal-title" size={18}>
-            <Text b size={18}>
-              M E A N I N G
-            </Text>
-          </Text>
-        </Modal.Header>
-        <Modal.Body>    
-        <Row>
-        <Text b size={24}>AK</Text>
-        <Text className='pl-2 pt-2' b size={14}>( AMBEDKARITE )</Text>
-        </Row>    
-        <Text className='-mt-5' b size={14}>ORIGIN: 'Marathi', 'Maharastra'</Text>
-        <Text b size={24}>DEEPANKAR</Text>
-        <Text className='-mt-5' b size={14}>ORIGIN: East Indian States</Text>
-        <Text className='-mt-5' b size={14}>MEANING: One Who Lights the Lamp</Text>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button auto flat color="error" onPress={closeHandler}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </div>
+            
             </div>
             <h3 className='text-gray-800 md:text-2xl md:pt-5 max-w-xl mx-auto dark:text-white'>{intro.desc}<em>{intro.desc2}</em>  <br></br> {intro.desc3} <em>{intro.desc4}</em> {intro.desc5} <em className='bg-green-100 dark:text-black'>{intro.desc6}</em></h3>
           </div>
