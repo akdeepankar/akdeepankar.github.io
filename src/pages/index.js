@@ -41,7 +41,7 @@ export default function Home() {
           </nav>  
           <div className='flex justify-center -mt-24'>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player src={intro.introlottie}  background="transparent" speed="1"  style={{width: 500, height: 500}}  loop  autoplay></lottie-player>
+          <lottie-player src={intro.introlottie}  background="transparent" speed="1"  style={{width: 500, height: 500}}  loop  autoplay ></lottie-player>
           </div>
           <div className='text-center -mt-20' >
             <h3 className='text-1xl md:text-4xl dark:text-white'>{intro.greet}</h3>
@@ -213,12 +213,12 @@ export default function Home() {
                   </div>
           </Card.Body>
           </Card>
-          <div className='pt-2'>
+          <div className='pt-2 md:p-5'>
           <Image width={140} className='rounded-xl' src='pandasleeping.png' alt=''></Image>
           </div>
             </div>
             <div>
-                <Card className='border-none' css={{
+                <Card className='border-none ' css={{
                   bgBlur: "#ffffff66",
                   borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
                   bottom: 0,
@@ -371,11 +371,6 @@ export default function Home() {
           </Card>
             })}
 
-</section>
-<section className='flex justify-center mb-5'>
-<Button bordered color="primary" auto>
-2023 - AK DEEPANKAR
-        </Button>
 </section>
 </main>
 </div>
